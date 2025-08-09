@@ -20,7 +20,7 @@ p{
   width: 50%;
   height: 100vh;
   padding: 20px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 #right-pane{
   width: 50%;
@@ -28,7 +28,7 @@ p{
   padding: 25px;
   position: absolute;
   left: 50%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 footer{
   position: fixed;
@@ -38,10 +38,33 @@ footer{
   align-items: center;
   background-color: chocolate;
 }
+h2{
+  padding-bottom: 10px;
+}
 table{
   width: 60%;
   text-align: center;
 }
 #desc-map{
   padding-bottom: 20px;
+}
+#btn-pane{
+  position: relative;
+  padding-top: 50px;
+}
+#btn-pane > button{
+  width: 250px;
+  height: 80px;
+  border-radius: 30px;
+  border: 2px solid green;
+  background: transparent;
+  font-size: 1.2rem;
+  color: green;
+  
+}
+#btn-pane > button:hover{
+  font-size: 1.5rem;
+  color: white;
+  background: #2A7B9B;
+  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
 }
