@@ -2,11 +2,26 @@
   width: 500px;
   height: 400px;
   border: 1px solid red;
+
+
 }
-.css-positions{
+.css-positions-1{
   width: 100px;
   height: 80px;
   background-color: rgb(0, 34, 255);
   left: 100px;
+  top: 50px;
   position: relative;
 }
+.css-positions-2{
+  width: 100px;
+  height: 80px;
+  background-color: rgb(255, 0, 72);
+}
+.css-positions-3{
+    position: absolute;
+    left: 300px;
+    width: 100px;
+    height: 80px;
+    background-color: rgb(0, 255, 47);
+  }
