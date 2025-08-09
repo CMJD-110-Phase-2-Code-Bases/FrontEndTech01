@@ -36,8 +36,21 @@ footer{
   width: 100vw;
   height: 40px;
   align-items: center;
-  background-color: chocolate;
+  background-color: rgb(187, 183, 181);
+  display: flex;
+  justify-content: space-around;
 }
+footer span{
+  padding: 10px;
+}
+#footer-content a{
+   color: white;
+   text-decoration: none;
+}
+#footer-content a:hover{
+  text-decoration: underline;
+}
+
 h2{
   padding-bottom: 10px;
 }
