@@ -13,7 +13,7 @@
         <p id="form-topic">Register form for the CMJD Program - 2025</p>
     </div>
     <div>
-        <form>
+        <form id="formData">
             <label for="title">Title:</label>
             <select name="Title" id="title">
                 <option value="mr">Mr.</option>
@@ -46,8 +46,8 @@
             <input id="city" name="city" type="text">
             <div>
                 <button type="submit" class="btn" id="btn-submit">Submit</button>
-                <button type="button" class="btn" id="btn-reset" >Reset</button>
-                <button type="button" class="btn" id="btn-back">Back</button>
+                <button type="button" class="btn" id="btn-reset" onclick="formReset()">Reset</button>
+                <button type="button" class="btn" id="btn-back" onclick="btnBack()">Back</button>
             </div>
 
         </form>
