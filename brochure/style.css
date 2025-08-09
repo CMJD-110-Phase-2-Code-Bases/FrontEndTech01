@@ -38,6 +38,10 @@ footer{
   align-items: center;
   background-color: chocolate;
 }
+table{
+  width: 60%;
+  text-align: center;
+}
 #desc-map{
   padding-bottom: 20px;
 }
