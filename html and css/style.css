@@ -28,7 +28,7 @@
 }
 .css-positions-4 {
   position: fixed;
-  bottom: 0px;  
+  bottom: 200px;  
   width: 100px;
   height: 80px;
   background-color: rgb(166, 0, 255);
@@ -39,4 +39,11 @@
     background-color: rgb(242, 255, 0);
     position: sticky;
     top: 0;
+  }
+  #explain-box-model{
+    width: 400px;
+    border: 10px solid black;
+    height: auto;
+    margin: 20px;
+    padding: 60px;
   }
