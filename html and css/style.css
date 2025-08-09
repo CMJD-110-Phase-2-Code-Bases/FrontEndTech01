@@ -43,7 +43,7 @@
   #explain-box-model{
     width: 400px;
     border: 10px solid black;
-    height: auto;
+    height: 300px;
     margin: 20px;
     padding: 60px;
   }

@@ -1,11 +1,13 @@
-p{
-    color:royalblue;
-    font-weight: bold;
+*{
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
 }
-
+#main-outer{
+  display: flex;
+  flex-direction: column;
+}
 #main-topic{
     color: green;
 }
-.text-format{
-    text-decoration: underline;
-}
+
