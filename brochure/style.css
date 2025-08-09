@@ -7,8 +7,14 @@
   display: flex;
   flex-direction: column;
 }
-#main-topic{
-    color: green;
+
+.topic-format{
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+p{
+  text-align: justify;
+  padding: 5px;
 }
 #left-pane{
   width: 50%;
@@ -23,5 +29,15 @@
   position: absolute;
   left: 50%;
   border: 1px solid red;
-
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 40px;
+  align-items: center;
+  background-color: chocolate;
+}
+#desc-map{
+  padding-bottom: 20px;
 }
